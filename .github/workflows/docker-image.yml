@@ -15,4 +15,4 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag ghcr.io/poertsch/robotframeworkdockerimage:$(date +%s)
     - name: puglish the image
-      run: docker push ghcr.io/poertsch/robotFrameworkDockerImage:$(date +%s)
+      run: docker push ghcr.io/poertsch/robotframeworkdockerimage:$(date +%s)
